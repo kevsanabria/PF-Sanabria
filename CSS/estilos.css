@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    main{
+        min-height: 700px;
+    }
+
+.logo{
+    margin-left: 50px;
+}
+
+.navbar-nav{
+    margin-right: 50px;
+}
+
+.fondo-index{
+    background-image: url(../imagenes/fondo-index.jpg);
+    width: 100vw;
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-index{
+    height: 800px;
+}
+
+.section-index{
+    border-radius: 10px;
+    opacity:  0.8;
+    font-family: 'Contrail One', cursive;
+}
+
+
+.card{
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.h1-servicios {
+    background: rgba(255, 251, 251, 0.8);
+    font-size: 50px;
+    font-family: 'Contrail One', cursive;
+    display: block;
+    margin-left: 50px;
+
+}
+
+.p-servicios{
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.img-servicios{
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+
+/* Medias query para hacer responsiva la pagina de Servicios */
+
+@media screen and (min-width: 1351px) and (max-width:1650px){
+    .img-servicios{
+        width: 650px;
+    }
+    .p-servicios{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1251px) and (max-width:1350px){
+    .img-servicios{
+        width: 600px;
+        margin-top: 75px;
+    }
+    }
+
+@media screen and (min-width: 1151px) and (max-width:1250px){
+    .img-servicios{
+        width: 500px;
+        margin-top: 125px;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width:1150px){
+    .img-servicios{
+        width: 500px;
+        margin-top: 125px;
+    }
+    .p-servicios{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width:950px){
+    .img-servicios{
+        width: 500px;
+
+    }
+    .p-servicios{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width:750px){
+    .img-servicios{
+        width: 450px;
+    }
+    .p-servicios{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .img-servicios{
+        width: 250px;
+    }
+    .p-servicios{
+        font-size: 16px;
+    }
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 50px;
+    height: auto;
+}
+
+.row{
+    padding: 100px;
+}
+
+.card-body{
+    font-family: 'Contrail One', cursive;
+    font-size: 16px;
+}
+
+.div-nosotros{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-family: 'Contrail One', cursive;
+
+}
+
+
+.imagen-nosotros{
+    width:100%;
+}
+
+.div-formulario{
+    margin-top: 170px;
+    margin-left: 700px;
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+textarea{
+    width: 450px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+input{
+    width: 450px;
+}
+
+.div-form{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: 'Contrail One', cursive;
+    font-size: 25px;
+    background-color:wheat;
+    border-radius: 20px;
+    opacity:  0.9;
+}
+
+.titulo-form{
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+
+.fondo-contacto{
+    background: url(../imagenes/fondo-contacto1.jpg);
+    width: 1920px;
+    height: auto;
+}
