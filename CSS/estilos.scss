@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
 
+$fuente1: 'Contrail One', cursive;
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-family: $fuente1;
 }
 
 body {
@@ -39,7 +44,7 @@ main {
 .section-index {
     border-radius: 10px;
     opacity: 0.8;
-    font-family: 'Contrail One', cursive;
+    // font-family: 'Contrail One', cursive;
 }
 
 
@@ -51,7 +56,7 @@ main {
 .h1-servicios {
     background: rgba(255, 251, 251, 0.8);
     font-size: 50px;
-    font-family: 'Contrail One', cursive;
+    // font-family: 'Contrail One', cursive;
     display: block;
     margin-left: 50px;
 
@@ -176,7 +181,6 @@ main {
     }
 }
 
-/* Productos es responsiva git*/
 .card-img-top {
     border-radius: 20px;
 }
@@ -193,14 +197,14 @@ main {
 }
 
 .card-body {
-    font-family: 'Contrail One', cursive;
+    // font-family: 'Contrail One', cursive;
     font-size: 16px;
 }
 
 .div-nosotros {
     margin-top: 10px;
     margin-left: 100px;
-    font-family: 'Contrail One', cursive;
+    // font-family: 'Contrail One', cursive;
 
 }
 
@@ -231,7 +235,7 @@ input {
 .div-form {
     padding-left: 25px;
     padding-top: 25px;
-    font-family: 'Contrail One', cursive;
+    // font-family: 'Contrail One', cursive;
     font-size: 25px;
     background-color: wheat;
     border-radius: 20px;

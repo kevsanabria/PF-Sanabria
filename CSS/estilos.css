@@ -67,6 +67,76 @@ body {
     margin-left: 50px;
 }
 
+.card-img-top{
+    border-radius: 20px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 50px;
+    height: auto;
+}
+
+.row{
+    padding: 100px;
+}
+
+.card-body{
+    font-family: 'Contrail One', cursive;
+    font-size: 16px;
+}
+
+.div-nosotros{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-family: 'Contrail One', cursive;
+
+}
+
+.imagen-nosotros{
+    width:100%;
+}
+
+.div-formulario{
+    margin-top: 170px;
+    margin-left: 700px;
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+textarea{
+    width: 450px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+input{
+    width: 450px;
+}
+
+.div-form{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: 'Contrail One', cursive;
+    font-size: 25px;
+    background-color:wheat;
+    border-radius: 20px;
+    opacity:  0.9;
+}
+
+.titulo-form{
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+
+.fondo-contacto{
+    background: url(../imagenes/fondo-contacto1.jpg);
+    width: 1920px;
+    height: auto;
+}
 
 /* Medias query para hacer responsiva la pagina de Servicios */
 
@@ -130,77 +200,4 @@ body {
     .p-servicios{
         font-size: 16px;
     }
-}
-
-/* Productos es responsiva git*/
-.card-img-top{
-    border-radius: 20px;
-}
-
-.card{
-    margin-top: 10px;
-    margin-left: 70px;
-    margin-right: 50px;
-    height: auto;
-}
-
-.row{
-    padding: 100px;
-}
-
-.card-body{
-    font-family: 'Contrail One', cursive;
-    font-size: 16px;
-}
-
-.div-nosotros{
-    margin-top: 10px;
-    margin-left: 100px;
-    font-family: 'Contrail One', cursive;
-
-}
-
-
-.imagen-nosotros{
-    width:100%;
-}
-
-.div-formulario{
-    margin-top: 170px;
-    margin-left: 700px;
-    width: 500px;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-textarea{
-    width: 450px;
-    margin-bottom: 50px;
-    height: 200px;
-}
-
-input{
-    width: 450px;
-}
-
-.div-form{
-    padding-left: 25px;
-    padding-top: 25px;
-    font-family: 'Contrail One', cursive;
-    font-size: 25px;
-    background-color:wheat;
-    border-radius: 20px;
-    opacity:  0.9;
-}
-
-.titulo-form{
-    margin-bottom: 10px;
-    margin-left: 160px;
-}
-
-.fondo-contacto{
-    background: url(../imagenes/fondo-contacto1.jpg);
-    width: 1920px;
-    height: auto;
 }
