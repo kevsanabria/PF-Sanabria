@@ -6,7 +6,7 @@ $fuente1: 'Contrail One', cursive;
     box-sizing: content-box;
     font-family: $fuente1;
 }
-body {
+body,html {
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -80,7 +80,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .div-formulario{
     margin-top: 5%;
-    width: 400px;
+    width: 450px;
     height: auto;
     border-radius: 20px;
 }
@@ -104,7 +104,6 @@ input{
 }
 .titulo-form{
     margin-bottom: 10px;
-    margin-left: 125px;
 }
 .fondo-contacto{
     background: url(../imagenes/fondo-contacto1.jpg);
@@ -176,8 +175,8 @@ input{
         font-size: 16px;
         margin-left: 20px;
     }
-.div-nosotros{
-    margin-left: 20px;
+    .div-nosotros{
+    margin-left: 0px;
 }
     .row {
         padding: 50px;
@@ -195,5 +194,42 @@ input{
     }
     .txt-nosotros {
         font-size: 16px;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 380px) and (max-width:479px) {
+    .div-formulario { 
+        width: 300px;
+    }
+    input{
+        width: 250px;
+    }
+    textarea{
+        width: 250px;
+    }
+    .img-servicios {
+        width: 300px;
+        margin-left: 0px;
+    }
+    .p-servicios {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .imagen-nosotros {
+        width: 300px;
+        margin-left: 40px;
+    }
+    .txt-nosotros {
+        font-size: 16px;
+        margin-left: 0px;
+        width: 200px;
+    }
+    .div-nosotros{
+        margin-left: 0px !important;
+    }
+    .row{
+        padding: 30px;
     }
 }

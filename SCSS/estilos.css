@@ -6,7 +6,7 @@
   font-family: "Contrail One", cursive;
 }
 
-body {
+body, html {
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -126,7 +126,6 @@ input {
 
 .titulo-form {
   margin-bottom: 10px;
-  margin-left: 125px;
 }
 
 .fondo-contacto {
@@ -201,7 +200,7 @@ input {
     margin-left: 20px;
   }
   .div-nosotros {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .row {
     padding: 50px;
@@ -219,5 +218,42 @@ input {
   }
   .txt-nosotros {
     font-size: 16px;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 479px) {
+  .div-formulario {
+    width: 300px;
+  }
+  input {
+    width: 250px;
+  }
+  textarea {
+    width: 250px;
+  }
+  .img-servicios {
+    width: 300px;
+    margin-left: 0px;
+  }
+  .p-servicios {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  .imagen-nosotros {
+    width: 300px;
+    margin-left: 40px;
+  }
+  .txt-nosotros {
+    font-size: 16px;
+    margin-left: 0px;
+    width: 200px;
+  }
+  .div-nosotros {
+    margin-left: 0px !important;
+  }
+  .row {
+    padding: 30px;
   }
 }/*# sourceMappingURL=estilos.css.map */
